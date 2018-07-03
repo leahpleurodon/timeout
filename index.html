@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TimeOut App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Take the Beatles Quiz...</h1>
+    </header>
+    <main>
+        <section id="q1" class="question">
+            <h2>Name <strong>ALL</strong> the Beatles... <small>hint, we're looking for 5</small></h2>
+            <div class="inputs">
+                <div class="timer"></div>
+                <button>Start the clock...</button>
+                <input type="text" class="answerInput">
+            </div>
+            <div class="results"></div>
+        </section>
+        <section id="q2" class="question">
+            <h2>Name 10 Beatles songs.... <small>hint, solo songs not accepted.</small></h2>
+            <div class="inputs">
+                    <div class="timer"></div>
+                    <button>Start the clock...</button>
+                    <input type="text" class="answerInput">
+            </div>
+            <div class="results"></div>
+        </section>
+    </main>
+    <script src="answers.js"></script>
+    <script src="timeout.js"></script>
+</body>
+</html>

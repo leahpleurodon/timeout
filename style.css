@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+}
+header{
+    margin: 5vh auto;
+}
+h1{
+    font-size: 5vw;
+    font-family: 'Acme', sans-serif;
+}
+h2{
+    font-size: 3vw;
+    font-family: 'Acme', sans-serif;
+}
+small{
+    font-size: 1.5vw;
+}
+.results{
+    min-height: 20vw;
+    background-color: whitesmoke;
+    width: 90vw;
+    margin: 5vh auto;
+    border: 0.3vh solid lightgrey;
+    padding: 5% 5%;
+}
+button{
+    font-size: 1.7vw;
+    height: 4vh;
+    vertical-align: middle;
+}
+.answerInput{
+    width: 40vw;
+    height: 4vh;
+    vertical-align: middle;
+    font-size: 2vw;
+}
+.inputs{
+    margin-bottom: 3vh;
+}
+.timer{
+    display: inline-block;
+    width: 10vw;
+    font-size: 4vw;
+    vertical-align: middle;
+}
+.answered{
+    background-color: lightgreen;
+}
+.unanswered{
+    background-color: mistyrose;
+}
